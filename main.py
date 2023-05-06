@@ -1,8 +1,8 @@
 from requests import *
 from twilio.rest import Client
-api_key = "8115df57eef541fbbad71228230405"
-account_sid = "AC2ab0b55d07f4959a9eefb943bbefc55d"
-auth_token = "e3a9e6ca78d53f250f7fddea13e19018"
+api_key = "You weather api key"
+account_sid = "Your tiwilio account sid"
+auth_token = "Your tiwilio auth token"
 parameters = {
     "q": [11.601730, 79.518740],
     "key": api_key,
