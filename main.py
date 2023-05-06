@@ -25,13 +25,13 @@ if will_rain:
     message = client.messages \
                     .create(
                          body="Bringing an umbrella is advisory as it will rain today ☔",
-                         from_='+13184884454',
+                         from_='replace with your own twilio trail phone number',
                          to='+919047989145'
                      )
 else:
     client = Client(account_sid, auth_token)
     message = client.messages \
         .create(body="You just don't need an umbrella as it going to be a brighter day 🌞",
-                from_='+13184884454',
+                from_='replace with your own twilio trail phone number',
                 to='+919047989145'
                 )
